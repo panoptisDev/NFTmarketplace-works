@@ -7,7 +7,7 @@ const provider = new HDWalletProvider({
 module.exports = {
   networks: {
   bsctestnet: {
-    provider: () => new HDWalletProvider(word word word word word word word word word`, `https://bsc-testnet.public.blastapi.io`),
+    provider: () => new HDWalletProvider(`word word word word word word word word word`, `https://bsc-testnet.public.blastapi.io`),
     network_id: 97,
     confirmations: 5,       // # of confs to wait between deployments. (default: 0)
     gasPrice: 20000000000,
