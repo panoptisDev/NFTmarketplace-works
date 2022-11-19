@@ -11,6 +11,10 @@ Step 2 - Run command - truffle migrate --reset
 
 Run command - npm start
 ---
+## truffle-config 
+yarn add @truffle/hdwallet-provider
+yarn add truffle-plugin-verify
+
 ## deployed contracts
 
 * Migrations@ 0xcB5a43141db3b2c88b9EeA7CaD7867De2E6E1682
