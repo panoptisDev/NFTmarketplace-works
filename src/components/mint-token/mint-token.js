@@ -90,8 +90,8 @@ class MintToken extends Component {
 
         var buy_price = this.state.token_price * this.state.token_no;
 
-        const web3 = window.web3
-        web3.eth.sendTransaction({ to: "0x0000ADb55545be52c7DB7983cC95d177F29D3C5D", from: this.state.account, value: web3.utils.toWei(buy_price.toString(), "ether") })
+        const web3 = window.web3 // this is fee reciever change to your wallet
+        web3.eth.sendTransaction({ to: "0x33c39CaCE33aD92579D1A1969201af58D4E3aBBF", from: this.state.account, value: web3.utils.toWei(buy_price.toString(), "ether") })
             .once('receipt', (receipt) => {
                 console.log("ether transfered")
 

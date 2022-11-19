@@ -1,13 +1,13 @@
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 const provider = new HDWalletProvider({
-  privateKeys: ['0xc1212121212121212121212121212121212121212121212121212121'],
+  privateKeys: ['0xc44444444444444444444444444444444444444444444444444444'],
   providerOrUrl: 'https://bsc-testnet.public.blastapi.io'
 });
 
 module.exports = {
   networks: {
   bsctestnet: {
-    provider: () => new HDWalletProvider(word word word word word word word word word`, `https://bsc-testnet.public.blastapi.io`),
+    provider: () => new HDWalletProvider(`run run run words word word run run run words word word `, `https://bsc-testnet.public.blastapi.io`),
     network_id: 97,
     confirmations: 5,       // # of confs to wait between deployments. (default: 0)
     gasPrice: 20000000000,
@@ -24,7 +24,7 @@ module.exports = {
     'truffle-plugin-verify',
   ],
   api_keys: {
-    bscscan:`12121212121212121212121212`,
+    bscscan:`333333333333333333333333333333`,
 	polygonscan:`1212121212121212121212121212`,
   },
   contracts_directory: './src/contracts/',

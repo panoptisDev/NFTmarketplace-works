@@ -10,7 +10,7 @@ class Mint extends Component {
         return (
             <div>
                 <div className="head-title col-auto mx-4">
-                    <h4 className="mb-0 font-weight-normal">Create Token</h4>
+                    <h4 className="mb-0 font-weight-normal">Create NFT</h4>
                 </div>
                 <div className="container-fluid pt-5 create-mint-adj">
                     <div className="row">
