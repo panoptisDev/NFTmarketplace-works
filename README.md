@@ -1,4 +1,4 @@
-# Install required modules
+# PanoptisDev NFT Marketplace With Payment in ERC20
 ![alt text](https://svgshare.com/i/jgJ.svg)
 
 Run command - npm install
