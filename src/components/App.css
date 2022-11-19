@@ -55,8 +55,8 @@ table {
   border: 1px solid #21252914;
   margin-top: -20px;
   border-radius: 5px;
-  background-color: #fff;
-  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 14%);
+  background-color: rgb(210, 172, 248);
+  box-shadow: 0 4px 11px 0 rgb(0 0 0 / 20%);
 }
 
 /* explore-adj */
@@ -114,6 +114,6 @@ body {
 }
 .eth-class{
   height: 20px;
-  margin: 0px 5px;
-  padding-bottom: 5px;
+  margin: 0px 1px;
+  padding-bottom: 1px;
 }

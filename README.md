@@ -30,5 +30,6 @@ Run command - npm start
 * truffle run verify TokenContract@0xCF96af2b6dD15A0Ab4199d4949bfB2E1cC16E55b --network bsctestnet
 * truffle run verify TokenSaleContract@0x3aE52C56eb8540963603CbeF34116D9b0226D039 --network bsctestnet
 ---
-* 0x0000ADb55545be52c7DB7983cC95d177F29D3C5D // fee reciever,change to your wallet
+* old (0x0000ADb55545be52c7DB7983cC95d177F29D3C5D // fee reciever,change to your wallet)
+* 0x33c39CaCE33aD92579D1A1969201af58D4E3aBBF // fee reciever,change to your wallet
 
