@@ -1,4 +1,5 @@
 # Install required modules
+![alt text](https://svgshare.com/i/jgJ.svg)
 
 Run command - npm install
 
