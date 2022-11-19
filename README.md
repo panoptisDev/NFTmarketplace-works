@@ -12,8 +12,8 @@ Step 2 - Run command - truffle migrate --reset --network bsctestnet
 Run command - npm start
 ---
 ## truffle-config 
-yarn add @truffle/hdwallet-provider
-yarn add truffle-plugin-verify
+* yarn add @truffle/hdwallet-provider
+* yarn add truffle-plugin-verify
 
 ## deployed contracts
 
